@@ -1,0 +1,53 @@
+//$color-primary: #792E2E;
+$color-primary: #873434;
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+
+    @media only screen and (max-width: 50em) {
+        font-size: 56.25%;
+    }
+
+    @media only screen and (max-width: 25em) {
+        font-size: 45%;
+    }
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(206, 206, 206);
+
+}
+
+@keyframes images {
+    0% {
+        background-image: linear-gradient(rgba(black, .95), rgba(black, .3)), url(../img/header1.jpg);
+    }
+
+    25% {
+        background-image: linear-gradient(rgba(black, .95), rgba(black, .3)), url(../img/header2.jpg);
+    }
+
+    50% {
+        background-image: linear-gradient(rgba(black, .95), rgba(black, .3)), url(../img/header3.jpg);
+    }
+
+    75% {
+        background-image: linear-gradient(rgba(black, .95), rgba(black, .3)), url(../img/header4.jpg);
+    }
+
+    100% {
+        background-image: linear-gradient(rgba(black, .95), rgba(black, .3)), url(../img/header5.jpg);
+    }
+}

@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fasthand&family=Libre+Caslon+Text:wght@400;700&family=PT+Serif&family=Roboto+Mono:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" type="image/x-icon" href="img/site-logo.png" />
+    <title>Arcturus Museum</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navigation">
+        <img src="img/logo.png" alt="Logo" class="logo" />
+
+        <form action="#" class="search">
+          <input type="text" class="search__input" placeholder="Search" />
+          <button class="search__button">
+            <svg class="search__icon">
+              <use xlink:href="img/sprite.svg#icon-search"></use>
+            </svg>
+          </button>
+        </form>
+
+        <ul class="navigation__right">
+          <li class="navigation__item">
+            <a href="#" class="navigation__link">
+              <svg class="navigation__icons">
+                <use xlink:href="img/sprite.svg#icon-cart"></use>
+              </svg>
+              <span>Shop</span>
+            </a>
+          </li>
+
+          <li class="navigation__item navigation__item--hide">
+            <a href="#" class="navigation__link">
+              <svg class="navigation__icons">
+                <use xlink:href="img/sprite.svg#icon-ticket"></use>
+              </svg>
+              <span>Tickets</span></a
+            >
+          </li>
+        </ul>
+        <div class="nav__content">
+          <div class="nav">
+            <input type="checkbox" class="nav__checkbox" id="button" />
+            <label for="button" class="nav__button">
+              <span class="nav__icon"> &nbsp; </span>
+            </label>
+
+            <div class="nav__background">
+              <ul class="nav__menu">
+                <li class="nav__menu-item">
+                  <a href="#" class="nav__menu-link">Search</a>
+                </li>
+                <li class="nav__menu-item">
+                  <a href="#" class="nav__menu-link">Tours</a>
+                </li>
+                <li class="nav__menu-item">
+                  <a href="#" class="nav__menu-link">Expositions</a>
+                </li>
+                <li class="nav__menu-item">
+                  <a href="#" class="nav__menu-link">Gallery</a>
+                </li>
+                <li class="nav__menu-item">
+                  <a href="#" class="nav__menu-link">Contacts</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div class="header--main">
+        <div class="header__text">
+          <h1 class="heading-1">Explore the unexplored</h1>
+          <p class="header__quote">
+            “Paintings have a life of their own that derives from the painter's
+            soul.” - Vincent Van Gogh
+          </p>
+
+          <button class="btn">
+            <svg class="btn__icon">
+              <use xlink:href="img/sprite.svg#icon-ticket"></use>
+            </svg>
+            <span>Book tickets</span>
+          </button>
+        </div>
+
+        <div class="header__info">
+          <div class="header__info-schedule">
+            The museum is open everyday from 10:00 AM to 5:00 PM
+          </div>
+          <button class="btn-inline">
+            <span>See list of available galleries</span>
+            <svg class="btn-inline__icon">
+              <use xlink:href="img/sprite.svg#icon-arrow-right"></use>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <section class="section-group">
+      <div class="group__museum" id="group">
+        <div class="group__name group__name--main">Arcturus Museum</div>
+      </div>
+
+      <div class="group__exhibition" id="group">
+        <div class="group__name">Exhibitions</div>
+      </div>
+
+      <div class="group__highlights" id="group">
+        <div class="group__name">Highlights</div>
+      </div>
+
+      <div class="group__locations" id="group">
+        <div class="group__name">Locations</div>
+      </div>
+
+      <div class="group__tours" id="group">
+        <div class="group__name">Tours</div>
+      </div>
+    </section>
+
+    <section class="section-exhibitions">
+      <h1 class="heading-2">Latest Exhibitions</h1>
+
+      <div class="exhibition-container" id="container">
+        <div class="exhibition exhibition-1" id="content">
+          <a href="#" class="exhibition__bg-image">
+            <img src="img/exhibition-1.jpg" alt="exhibition 1" />
+          </a>
+          <div class="exhibition__info">
+            <p class="exhibition__info-type">Exhibition</p>
+            <h2 class="heading-3">Von Harseng's fairy-tale</h2>
+            <p class="exhibition__info-description">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius id
+              modi beatae doloribus error nisi!
+            </p>
+          </div>
+        </div>
+
+        <div class="exhibition exhibition-2" id="content">
+          <a href="#" class="exhibition__bg-image">
+            <img src="img/exhibition-2.jpg" alt="exhibition 2" />
+          </a>
+          <div class="exhibition__info">
+            <p class="exhibition__info-type">Exhibition</p>
+            <h2 class="heading-3">Von Harseng's fairy-tale</h2>
+            <p class="exhibition__info-description">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Quibusdam similique ipsum ullam vel, reprehenderit deserunt!
+            </p>
+          </div>
+        </div>
+
+        <div class="exhibition exhibition-3" id="content">
+          <a href="#" class="exhibition__bg-image">
+            <img src="img/exhibition-3.jpg" alt="exhibition 3" />
+          </a>
+          <div class="exhibition__info">
+            <p class="exhibition__info-type">Exhibition</p>
+            <h2 class="heading-3">Von Harseng's fairy-tale</h2>
+            <p class="exhibition__info-description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
+              quas asperiores numquam dicta suscipit aspernatur.
+            </p>
+          </div>
+        </div>
+
+        <div class="exhibition exhibition-4" id="content">
+          <a href="#" class="exhibition__bg-image">
+            <img src="img/exhibition-4.jpg" alt="exhibition 4" />
+          </a>
+          <div class="exhibition__info">
+            <p class="exhibition__info-type">Exhibition</p>
+            <h2 class="heading-3">Von Harseng's fairy-tale</h2>
+            <p class="exhibition__info-description">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima
+              in consequatur saepe magnam? Harum, autem.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="dots"></div>
+
+      <div class="scroll">
+        <button
+          class="scroll-btn scroll-btn--left"
+          id="slideLeft"
+          type="button"
+        >
+          &#60;
+        </button>
+        <button
+          class="scroll-btn scroll-btn--right"
+          id="slideRight"
+          type="button"
+        >
+          &#62;
+        </button>
+      </div>
+      <script src="js/index.js"></script>
+    </section>
+
+    <section class="section-gallery">
+      <h2 class="heading-2 heading-2--light">Art Valley</h2>
+
+      <div class="gallery">
+        <figure class="gallery__item gallery__item--1">
+          <img src="img/gal-1.jpg" alt="Gallery image 1" class="gallery__img" />
+        </figure>
+
+        <figure class="gallery__item gallery__item--2">
+          <img src="img/gal-2.jpg" alt="Gallery image 2" class="gallery__img" />
+        </figure>
+
+        <figure class="gallery__item gallery__item--3">
+          <img src="img/gal-3.jpg" alt="Gallery image 3" class="gallery__img" />
+        </figure>
+
+        <figure class="gallery__item gallery__item--4">
+          <img src="img/gal-4.jpg" alt="Gallery image 4" class="gallery__img" />
+        </figure>
+
+        <figure class="gallery__item gallery__item--5">
+          <img src="img/gal-5.jpg" alt="Gallery image 5" class="gallery__img" />
+        </figure>
+
+        <figure class="gallery__item gallery__item--6">
+          <img src="img/gal-6.jpg" alt="Gallery image 6" class="gallery__img" />
+        </figure>
+
+        <figure class="gallery__item gallery__item--7">
+          <img src="img/gal-7.jpg" alt="Gallery image 7" class="gallery__img" />
+        </figure>
+
+        <figure class="gallery__item gallery__item--8">
+          <img src="img/gal-8.jpg" alt="Gallery image 8" class="gallery__img" />
+        </figure>
+
+        <figure class="gallery__item gallery__item--9">
+          <img src="img/gal-9.jpg" alt="Gallery image 9" class="gallery__img" />
+        </figure>
+
+        <figure class="gallery__item gallery__item--10">
+          <img
+            src="img/gal-10.jpg"
+            alt="Gallery image 10"
+            class="gallery__img"
+          />
+        </figure>
+
+        <figure class="gallery__item gallery__item--11">
+          <img
+            src="img/gal-11.jpg"
+            alt="Gallery image 11"
+            class="gallery__img"
+          />
+        </figure>
+
+        <figure class="gallery__item gallery__item--12">
+          <img
+            src="img/gal-12.jpg"
+            alt="Gallery image 12"
+            class="gallery__img"
+          />
+        </figure>
+      </div>
+    </section>
+
+    <section class="section-shop">
+      <h3 class="heading-2">Visit our shop</h3>
+
+      <div class="shop-container" id="shop-container">
+        <div class="card" id="card">
+          <img src="img/test.png" alt="test" />
+        </div>
+
+        <div class="card" id="card">
+          <img src="img/test1.png" alt="test" />
+        </div>
+
+        <div class="card" id="card">
+          <img src="img/test2.png" alt="test" />
+        </div>
+
+        <div class="card" id="card">
+          <img src="img/test3.png" alt="test" />
+        </div>
+
+        <div class="card" id="card">
+          <img src="img/test4.png" alt="test" />
+        </div>
+      </div>
+
+      <div class="scroll">
+        <button
+          class="scroll-btn scroll-btn--left"
+          id="scrollLeft"
+          type="button"
+        >
+          &#60;
+        </button>
+        <button
+          class="scroll-btn scroll-btn--right"
+          id="scrollRight"
+          type="button"
+        >
+          &#62;
+        </button>
+      </div>
+
+      <script src="js/scroll.js"></script>
+    </section>
+
+    <footer>
+      <div class="pre-footer">
+        <div class="pre-footer__contacts">
+          <h3 class="heading-3">Connect with us</h3>
+
+          <ul class="social-media">
+            <li class="social-media__item">
+              <a href="#" class="social-media__link">
+                <svg class="social-media__icon">
+                  <use xlink:href="img/sprite.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+
+            <li class="social-media__item">
+              <a href="#" class="social-media__link">
+                <svg class="social-media__icon">
+                  <use xlink:href="img/sprite.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+
+            <li class="social-media__item">
+              <a href="#" class="social-media__link">
+                <svg class="social-media__icon">
+                  <use xlink:href="img/sprite.svg#icon-youtube"></use>
+                </svg>
+              </a>
+            </li>
+
+            <li class="social-media__item">
+              <a href="#" class="social-media__link">
+                <svg class="social-media__icon">
+                  <use xlink:href="img/sprite.svg#icon-whatsapp"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <form action="" class="newsletter">
+          <label for="email" class="newsletter__email-label"
+            >Enter your email address to receive our newsletter</label
+          >
+          <div class="newsletter__email">
+            <input
+              type="email"
+              class="newsletter__email-input"
+              required
+              id="email"
+              placeholder="Email"
+            />
+            <button class="newsletter__button">Sign up</button>
+          </div>
+        </form>
+      </div>
+
+      <div class="footer">
+        <div class="footer__logo-box">
+          <img src="img/logo.png" alt="logo" class="footer__logo" />
+        </div>
+
+        <div class="footer__menu">
+          <div class="footer__info">
+            <div class="footer__info-entry">
+              <div class="footer__heading">
+                <svg class="footer__heading-icon">
+                  <use xlink:href="img/sprite.svg#icon-ticket"></use>
+                </svg>
+                Free entry
+              </div>
+              <p>New Divide 76 Street<br />Antker 4CD 8WK</p>
+              <p>+29 (0)37 8572 1748</p>
+            </div>
+
+            <div class="footer__info-openning">
+              <div class="footer__heading">
+                <svg class="footer__heading-icon">
+                  <use xlink:href="img/sprite.svg#icon-clock"></use>
+                </svg>
+                Openning hours
+              </div>
+              <p>Daily: 10:00 - 17:00<br />Last entry: 16:00</p>
+            </div>
+          </div>
+
+          <div class="footer__container">
+            <ul class="footer__links">
+              <li class="footer__menu-item">
+                <a href="#" class="footer__menu-name">About us</a>
+              </li>
+              <li class="footer__menu-item">
+                <a href="#" class="footer__menu-link">Museum story</a>
+              </li>
+              <li class="footer__menu-item">
+                <a href="#" class="footer__menu-link">Visitor rules</a>
+              </li>
+              <li class="footer__menu-item">
+                <a href="#" class="footer__menu-link">Press</a>
+              </li>
+            </ul>
+
+            <ul class="footer__links">
+              <li class="footer__menu-item">
+                <a href="#" class="footer__menu-name">Contacts</a>
+              </li>
+              <li class="footer__menu-item">
+                <a href="#" class="footer__menu-link">Give us a feedback</a>
+              </li>
+              <li class="footer__menu-item">
+                <a href="#" class="footer__menu-link">Rules</a>
+              </li>
+              <li class="footer__menu-item">
+                <a href="#" class="footer__menu-link">Jobs</a>
+              </li>
+              <li class="footer__menu-item">
+                <a href="#" class="footer__menu-link">Contact us</a>
+              </li>
+            </ul>
+
+            <ul class="footer__links">
+              <li class="footer__menu-item">
+                <a href="#" class="footer__menu-name">Commercial</a>
+              </li>
+              <li class="footer__menu-item">
+                <a href="#" class="footer__menu-link">Shop</a>
+              </li>
+              <li class="footer__menu-item">
+                <a href="#" class="footer__menu-link">Picture library</a>
+              </li>
+              <li class="footer__menu-item">
+                <a href="#" class="footer__menu-link">Filming</a>
+              </li>
+              <li class="footer__menu-item">
+                <a href="#" class="footer__menu-link">Licensing</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="copyright">
+        Copyright &copy; by <a href="#">Maxim Chele</a>. The "Arcturus Museum"
+        does not exist. Any similarity is purely coincidental. You are not
+        allowed to use this webpage for any personal or commercial use.
+      </div>
+    </footer>
+    <div class="container">
+      <span>Cookies</span><span>Accessibility</span><span>Terms of use</span
+      ><span>Privacy policy</span>
+    </div>
+  </body>
+</html>

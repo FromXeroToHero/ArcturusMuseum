@@ -1,0 +1,42 @@
+.heading {
+    &-1 {
+        font-size: 5rem;
+        color: rgb(255, 246, 246);
+        font-weight: 400;
+        letter-spacing: .7rem; 
+
+        // @media only screen and (max-width: 25em) {
+        //     font-size: 4rem;
+        // }
+    }
+
+    &-2 {
+        font-family: 'PT Serif', serif;
+        font-size: 5rem;
+        letter-spacing: .7rem;
+        margin: 0 auto;
+        color: black;
+        font-weight: 300;
+
+        text-transform: uppercase;
+        text-align: center;
+
+        &--light {
+            color: white;
+        }
+    }
+
+    &-3 {
+        font-family: 'PT Serif', serif;
+        font-size: 3.5rem;
+        letter-spacing: .2rem;
+        color: white;
+        text-transform: uppercase;
+        font-weight: 400;
+
+        &--dark {
+            color: black;
+        }
+    }
+    
+}
